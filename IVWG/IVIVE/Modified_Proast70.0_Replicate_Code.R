@@ -3,6 +3,7 @@ inCES <- 1 #This is the critical effect size, 1 indicates BMR100
 indVariable <- 4 #This is the column of the user-supplied concentration-response table that indicates concentration
 responseVariable <- 5 #This is the column of the user-supplied concentration-response table that indicates response (e.g., mutation frequency)
 
+#Lines 8-71 are the functions from Proast70.0 that were modified. To run proast, f.proast() needs to be applied to user-supplied data table.
 #proast70.0
 #f.proast
 #f.overlap
@@ -68,6 +69,8 @@ responseVariable <- 5 #This is the column of the user-supplied concentration-res
 #f.resid.con
 #f.outliers
 #f.grubb
+
+#Modified code are indicated below with ###Modified start and ###Modified end
 
 f.proast <- function (odt = list(), ans.all = 0, er = FALSE, resize = FALSE, 
     scale.ans = FALSE, const.var = F, show.warnings = F) 
