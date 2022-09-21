@@ -70,6 +70,8 @@ variationChoice <- 2 #1 indicates that Standard Deviation reported for "variatio
 #f.alert.full
 #f.delete.gw
 
+#Modified code are indicated below with ###Modified start and ###Modified end
+
 f.proast <- function (odt = list(), ans.all = 0, er = FALSE, resize = FALSE, 
     scale.ans = FALSE, const.var = F, show.warnings = F) 
 {
