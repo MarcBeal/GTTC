@@ -1,9 +1,7 @@
-inCES <- 1
-indVariable <- 4
-responseVariable <- 5
-#variationStat <- 12
-#groupSampleSize <- 15
-#variationChoice <- 2 #1 is SD, 2 is SE
+#Lines 2-4 to be modified by user
+inCES <- 1 #This is the critical effect size, 1 indicates BMR100
+indVariable <- 4 #This is the column of the user-supplied concentration-response table that indicates concentration
+responseVariable <- 5 #This is the column of the user-supplied concentration-response table that indicates response (e.g., mutation frequency)
 
 #proast70.0
 #f.proast
